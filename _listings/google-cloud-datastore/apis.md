@@ -10,11 +10,22 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Lookup
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/lookup/master/_listings/google-cloud-datastore/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Google Cloud Datastore - Lookup Entity by Key
+  x-api-slug: v1projectsprojectidlookup-post
+  description: Looks up entities by key.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nosql-tree.png
+  humanURL: https://cloud.google.com/datastore/
+  baseURL: ://datastore.googleapis.com//
+  tags: Data, Google APIs, Stack Network, API Service Provider, API Provider, Databases,
+    Deployments, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lookup/master/_listings/google-cloud-datastore/v1projectsprojectidlookup-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://google.cloud.dataproc.api.gallery.streamdata.io

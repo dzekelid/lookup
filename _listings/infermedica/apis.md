@@ -12,11 +12,22 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Lookup
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/lookup/master/_listings/infermedica/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Infermedica - Get Lookup
+  x-api-slug: lookup-get
+  description: Returns a single observation matching given phrase.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/infermedica-logo.jpeg
+  humanURL: http://infermedica.com
+  baseURL: https://api.infermedica.com//v1
+  tags: API Provider, Healthcare, Artificial Intelligence, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lookup/master/_listings/infermedica/lookup-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://import.io.api.gallery.streamdata.io
